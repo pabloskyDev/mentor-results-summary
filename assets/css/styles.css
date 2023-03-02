@@ -20,7 +20,11 @@
 
 * {
     font-family: 'Hanken Grotesk';
-    font-size: 18px;
+    font-size: 12px;
     margin: 0px;
     padding: 0px;
+}
+
+@media screen and (max-width: 1440px) {
+
 }
