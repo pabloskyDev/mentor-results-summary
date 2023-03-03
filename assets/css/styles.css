@@ -28,7 +28,9 @@
 .header {
     background: var(--light-royal-blue);
     height: 40vh;
+    text-align: center;
 }
+
 
 @media screen and (max-width: 1440px) {
 
