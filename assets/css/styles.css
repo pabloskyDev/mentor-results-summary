@@ -29,8 +29,12 @@
     background: var(--light-royal-blue);
     height: 40vh;
     text-align: center;
+    color: var(--white);
 }
 
+.card {
+    display: flex;
+}
 
 @media screen and (max-width: 1440px) {
 
