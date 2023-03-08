@@ -32,6 +32,16 @@
     color: var(--white);
 }
 
+.content {
+    text-align: center;
+}
+
+.content__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .card {
     display: flex;
 }
