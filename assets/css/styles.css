@@ -34,6 +34,7 @@
 
 .content {
     text-align: center;
+    padding: 16px;
 }
 
 .content__list {
@@ -59,6 +60,23 @@
 .card__info {
     display: flex;
 }
+
+.content__button {
+    width: 100%;
+    margin: 0 auto;
+}
+.content__button button {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    background: var(--dark-gray-blue);
+    color: var(--white);
+    border: 0;
+    border-radius: 37px;
+    margin: 16px 0;
+}
+
+
 
 @media screen and (max-width: 1440px) {
 
