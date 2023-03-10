@@ -26,7 +26,7 @@
 }
 
 .header {
-    background: var(--light-royal-blue);
+    background: linear-gradient(360deg, var(--light-royal-blue), var(--light-slate-blue) );
     height: 40vh;
     text-align: center;
     color: var(--white);
@@ -42,7 +42,7 @@
 }
 
 .header__percent {
-    
+
 }
 
 .content {
