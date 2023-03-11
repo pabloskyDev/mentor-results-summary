@@ -42,7 +42,18 @@
 }
 
 .header__percent {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(180deg, var(--light-royal-blue), var(--light-slate-blue) );
+}
 
+.header__percent div:nth-child(1) {
+    font-size: 38px;
 }
 
 .content {
@@ -115,9 +126,14 @@
     color: hsl(234, 85%, 45%);
 }
 
+.card__score {
+    color: var(--light-lavender);
+}
+
 .card__score span{
     font-weight: bold;
     padding-right: 4px;
+    color: #000000;
 }
 
 .content__button {
