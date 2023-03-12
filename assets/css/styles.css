@@ -27,7 +27,7 @@
 
 .header {
     background: linear-gradient(360deg, var(--light-royal-blue), var(--light-slate-blue) );
-    height: 40vh;
+    min-height: 40vh;
     text-align: center;
     color: var(--white);
     padding: 20px;
@@ -54,6 +54,24 @@
 
 .header__percent div:nth-child(1) {
     font-size: 38px;
+}
+
+.header__percent div:nth-child(2) {
+    font-size: 14px;
+    color: var(--light-lavender);
+    margin-top: 8px;
+}
+
+.header__sub-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header__description {
+    font-size: 14px;
+    color: var(--light-lavender);
+    width: 230px;
+    margin: 8px auto;
 }
 
 .content {
