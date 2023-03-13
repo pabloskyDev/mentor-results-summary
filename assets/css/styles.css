@@ -168,7 +168,10 @@
     margin: 16px 0;
 }
 
-
+.content__button button:hover {
+    background: var(--light-slate-blue);
+    cursor: pointer;
+}
 
 @media screen and (min-width: 600px) {
     body {
