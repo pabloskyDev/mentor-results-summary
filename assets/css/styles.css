@@ -170,6 +170,18 @@
 
 
 
-@media screen and (max-width: 1440px) {
-
+@media screen and (min-width: 426px) {
+    .container {
+        min-width: 520px;
+        display: flex;
+    }
+    .header {
+        width: 40%;
+    }
+    .content {
+        width: calc(60% - 16px);
+    }
+    .card {
+        width: calc(100% - 16px);
+    }
 }
